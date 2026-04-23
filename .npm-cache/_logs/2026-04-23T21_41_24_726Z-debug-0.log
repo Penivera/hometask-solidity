@@ -1,0 +1,159 @@
+0 verbose cli /Users/Penivera/.nvm/versions/node/v24.10.0/bin/node /Users/Penivera/.nvm/versions/node/v24.10.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.10.0
+3 silly config load:file:/Users/Penivera/.nvm/versions/node/v24.10.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/Penivera/Desktop/hometask-solidity/.npmrc
+5 silly config load:file:/Users/Penivera/.npmrc
+6 silly config load:file:/Users/Penivera/.nvm/versions/node/v24.10.0/etc/npmrc
+7 verbose title npm exec truffle@5.11.5 version
+8 verbose argv "exec" "--yes" "--" "truffle@5.11.5" "version"
+9 verbose logfile logs-max:10 dir:/Users/Penivera/Desktop/hometask-solidity/.npm-cache/_logs/2026-04-23T21_41_24_726Z-
+10 verbose logfile /Users/Penivera/Desktop/hometask-solidity/.npm-cache/_logs/2026-04-23T21_41_24_726Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/npm 9236ms
+14 http fetch GET 200 https://registry.npmjs.org/truffle 9175ms (cache miss)
+15 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+16 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+17 silly idealTree buildDeps
+18 silly fetch manifest truffle@5.11.5
+19 silly packumentCache full:https://registry.npmjs.org/truffle cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/truffle 2340ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/truffle set size:undefined disposed:false
+22 silly placeDep ROOT truffle@5.11.5 OK for:  want: 5.11.5
+23 silly fetch manifest mocha@10.1.0
+24 silly packumentCache full:https://registry.npmjs.org/mocha cache-miss
+25 silly fetch manifest ganache@7.9.1
+26 silly packumentCache full:https://registry.npmjs.org/ganache cache-miss
+27 silly fetch manifest app-module-path@^2.2.0
+28 silly packumentCache full:https://registry.npmjs.org/app-module-path cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/ganache 1716ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/ganache set size:undefined disposed:false
+31 silly fetch manifest original-require@^1.0.1
+32 silly packumentCache full:https://registry.npmjs.org/original-require cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/app-module-path 1942ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/app-module-path set size:undefined disposed:false
+35 silly fetch manifest @truffle/debugger@^12.1.5
+36 silly packumentCache full:https://registry.npmjs.org/@truffle%2fdebugger cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/original-require 430ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/original-require set size:undefined disposed:false
+39 silly fetch manifest @truffle/db-loader@^0.2.36
+40 silly packumentCache full:https://registry.npmjs.org/@truffle%2fdb-loader cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@truffle%2fdb-loader 996ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@truffle%2fdb-loader set size:undefined disposed:false
+43 silly fetch manifest @truffle/db@^2.0.36
+44 silly packumentCache full:https://registry.npmjs.org/@truffle%2fdb cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/mocha 3231ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/mocha set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/@truffle%2fdb 804ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/@truffle%2fdb set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/@truffle%2fdebugger 2355ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@truffle%2fdebugger set size:undefined disposed:false
+51 silly placeDep ROOT @truffle/db@2.0.36 OK for: truffle@5.11.5 want: ^2.0.36
+52 silly placeDep ROOT @truffle/db-loader@0.2.36 OK for: truffle@5.11.5 want: ^0.2.36
+53 silly placeDep ROOT @truffle/debugger@12.1.5 OK for: truffle@5.11.5 want: ^12.1.5
+54 silly placeDep ROOT app-module-path@2.2.0 OK for: truffle@5.11.5 want: ^2.2.0
+55 silly placeDep ROOT ganache@7.9.1 OK for: truffle@5.11.5 want: 7.9.1
+56 silly placeDep ROOT mocha@10.1.0 OK for: truffle@5.11.5 want: 10.1.0
+57 silly placeDep ROOT original-require@1.0.1 OK for: truffle@5.11.5 want: ^1.0.1
+58 silly fetch manifest debug@^4.3.1
+59 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+60 silly fetch manifest graphql@^15.3.0
+61 silly packumentCache full:https://registry.npmjs.org/graphql cache-miss
+62 silly fetch manifest pouchdb@7.3.0
+63 silly packumentCache full:https://registry.npmjs.org/pouchdb cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/debug 394ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+66 silly fetch manifest fs-extra@^9.1.0
+67 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/pouchdb 561ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/pouchdb set size:undefined disposed:false
+70 silly fetch manifest pluralize@^8.0.0
+71 silly packumentCache full:https://registry.npmjs.org/pluralize cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/graphql 708ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/graphql set size:undefined disposed:false
+74 silly fetch manifest web3-utils@1.10.0
+75 silly packumentCache full:https://registry.npmjs.org/web3-utils cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/pluralize 164ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/pluralize set size:undefined disposed:false
+78 silly fetch manifest graphql-tag@^2.12.6
+79 silly packumentCache full:https://registry.npmjs.org/graphql-tag cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/fs-extra 380ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:undefined disposed:false
+82 silly fetch manifest pascal-case@^2.0.1
+83 silly packumentCache full:https://registry.npmjs.org/pascal-case cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/pascal-case 192ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/pascal-case set size:undefined disposed:false
+86 silly fetch manifest pouchdb-find@^7.0.0
+87 silly packumentCache full:https://registry.npmjs.org/pouchdb-find cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/graphql-tag 252ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/graphql-tag set size:undefined disposed:false
+90 silly fetch manifest apollo-server@^3.11.0
+91 silly packumentCache full:https://registry.npmjs.org/apollo-server cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/web3-utils 611ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/web3-utils set size:undefined disposed:false
+94 silly fetch manifest pouchdb-debug@^7.1.1
+95 silly packumentCache full:https://registry.npmjs.org/pouchdb-debug cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/pouchdb-find 387ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/pouchdb-find set size:undefined disposed:false
+98 silly fetch manifest @truffle/config@^1.3.61
+99 silly packumentCache full:https://registry.npmjs.org/@truffle%2fconfig cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/pouchdb-debug 387ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/pouchdb-debug set size:undefined disposed:false
+102 silly fetch manifest @truffle/abi-utils@^1.0.3
+103 silly packumentCache full:https://registry.npmjs.org/@truffle%2fabi-utils cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/apollo-server 1005ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/apollo-server set size:undefined disposed:false
+106 silly fetch manifest abstract-leveldown@^7.2.0
+107 silly packumentCache full:https://registry.npmjs.org/abstract-leveldown cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/@truffle%2fconfig 649ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/@truffle%2fconfig set size:undefined disposed:false
+110 silly fetch manifest @truffle/code-utils@^3.0.4
+111 silly packumentCache full:https://registry.npmjs.org/@truffle%2fcode-utils cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/@truffle%2fabi-utils 592ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@truffle%2fabi-utils set size:undefined disposed:false
+114 silly fetch manifest @graphql-tools/schema@^8.3.1
+115 silly packumentCache full:https://registry.npmjs.org/@graphql-tools%2fschema cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/abstract-leveldown 569ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/abstract-leveldown set size:undefined disposed:false
+118 silly fetch manifest json-stable-stringify@^1.0.1
+119 silly packumentCache full:https://registry.npmjs.org/json-stable-stringify cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/@truffle%2fcode-utils 563ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@truffle%2fcode-utils set size:undefined disposed:false
+122 silly fetch manifest pouchdb-adapter-memory@^7.1.1
+123 silly packumentCache full:https://registry.npmjs.org/pouchdb-adapter-memory cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/json-stable-stringify 506ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/json-stable-stringify set size:undefined disposed:false
+126 silly fetch manifest @graphql-tools/delegate@^8.4.3
+127 silly packumentCache full:https://registry.npmjs.org/@graphql-tools%2fdelegate cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/pouchdb-adapter-memory 576ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/pouchdb-adapter-memory set size:undefined disposed:false
+130 silly fetch manifest web3@1.10.0
+131 silly packumentCache full:https://registry.npmjs.org/web3 cache-miss
+132 verbose stack Error: Lock compromised
+132 verbose stack     at AbortSignal.<anonymous> (/Users/Penivera/.nvm/versions/node/v24.10.0/lib/node_modules/npm/node_modules/libnpmexec/lib/with-lock.js:52:30)
+132 verbose stack     at [nodejs.internal.kHybridDispatch] (node:internal/event_target:845:20)
+132 verbose stack     at AbortSignal.dispatchEvent (node:internal/event_target:778:26)
+132 verbose stack     at runAbort (node:internal/abort_controller:488:10)
+132 verbose stack     at abortSignal (node:internal/abort_controller:459:3)
+132 verbose stack     at AbortController.abort (node:internal/abort_controller:507:5)
+132 verbose stack     at Timeout.touchLock (/Users/Penivera/.nvm/versions/node/v24.10.0/lib/node_modules/npm/node_modules/libnpmexec/lib/with-lock.js:161:18)
+133 error code ECOMPROMISED
+134 error Lock compromised
+135 silly unfinished npm timer reify 1776980495993
+136 silly unfinished npm timer reify:loadTrees 1776980495994
+137 silly unfinished npm timer idealTree 1776980495994
+138 silly unfinished npm timer idealTree:buildDeps 1776980496009
+139 silly unfinished npm timer idealTree:node_modules/truffle 1776980502698
+140 verbose cwd /Users/Penivera/Desktop/hometask-solidity
+141 verbose os Darwin 21.6.0
+142 verbose node v24.10.0
+143 verbose npm  v11.6.1
+144 notice
+144 notice New [33mminor[39m version of npm available! [33m11.6.1[39m -> [34m11.13.0[39m
+144 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.13.0[39m
+144 notice To update run: [4mnpm install -g npm@11.13.0[24m
+144 notice  { force: true, Symbol(proc-log.meta): true }
+145 verbose exit 1
+146 verbose code 1
+147 error A complete log of this run can be found in: /Users/Penivera/Desktop/hometask-solidity/.npm-cache/_logs/2026-04-23T21_41_24_726Z-debug-0.log
